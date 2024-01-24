@@ -1,0 +1,263 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+  background-image: url(./img/bg.jpg);
+  background-position: center;
+  opacity: 0.7;
+  background-size: cover;
+  position: relative;
+  justify-content: center;
+  background-attachment: fixed;
+}
+
+.title {
+  width: 35%;
+  height: 8%;
+  color: rgb(33, 30, 30);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-top-left-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+  background-color: black;
+  outline: 0.6rem inset rgb(132, 4, 85);
+  outline-offset: 0.9rem;
+  color: white;
+  font-size: 50px;
+  text-align: center;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  justify-content: center;
+  letter-spacing: 0.2rem;
+  box-sizing: border-box;
+}
+
+.title1 {
+  text-align: center;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  letter-spacing: 0.2rem;
+  font-size: 19px;
+  padding-top: 60px;
+}
+
+.p1 {
+  text-align: center;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  padding: 20px;
+  font-size: 16px;
+  /* letter-spacing: 0.2rem; */
+  padding-bottom: 30px;
+}
+
+.container2 {
+  width: 99vw;
+  height: 80vh;
+  background-image: url(./img/bg2.jpg);
+  background-position: center;
+  /* opacity: 0.7; */
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+  opacity: 0.7;
+}
+
+#img1 {
+  width: 30%;
+  height: 20%;
+}
+
+.container3 {
+  background-color: rgb(59, 57, 57);
+  color: white;
+  text-align: center;
+}
+.title2 {
+  color: white;
+  text-align: center;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  letter-spacing: 0.2rem;
+  font-size: 20px;
+  padding-top: 24px;
+}
+
+.p2 {
+  text-align: center;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  padding: 20px;
+  font-size: 16px;
+  /* letter-spacing: 0.2rem; */
+  padding-bottom: 30px;
+}
+
+.container4 {
+  width: 98vw;
+  height: 80vh;
+  background-image: url(./img/bg3.jpg);
+  background-position: center;
+  display: flex;
+  background-attachment: fixed;
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+  opacity: 0.8;
+}
+
+.title3 {
+  width: 60%;
+  height: 10%;
+  color: white;
+  text-align: center;
+  position: absolute;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  letter-spacing: 0.2rem;
+  border-top-right-radius: 1rem;
+  border-bottom-left-radius: 1rem;
+  background-color: rgb(46, 46, 46);
+  outline: 0.6rem inset rgb(132, 4, 85);
+  outline-offset: 0.9rem;
+  color: white;
+  font-size: 50px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transform: translate(-%50, -50%);
+}
+
+.title4 {
+  text-align: center;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  letter-spacing: 0.2rem;
+  font-size: 22px;
+  padding-top: 50px;
+}
+
+.p3 {
+  text-align: center;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  padding: 20px;
+  font-size: 16px;
+}
+
+.container6 {
+  width: 98vw;
+  height: 70vh;
+  background-image: url(./img/bg4.jpg);
+  /* display: flex; */
+  margin: auto;
+  align-items: center;
+  /* justify-content: center; */
+  opacity: 0.8;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  justify-content: center;
+  background-attachment: fixed;
+}
+
+.title5 {
+  width: 50%;
+  height: 10%;
+  color: white;
+  text-align: center;
+  position: absolute;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  letter-spacing: 0.2rem;
+  border-top-right-radius: 1rem;
+  border-bottom-left-radius: 1rem;
+  background-color: rgb(46, 46, 46);
+  outline: 0.6rem inset rgb(132, 4, 85);
+  outline-offset: 0.9rem;
+  color: white;
+  font-size: 50px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transform: translate(-%50, -50%);
+}
+
+.container7 {
+  background-color: rgb(54, 50, 50);
+  color: white;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.title6 {
+  text-align: center;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  letter-spacing: 0.2rem;
+  font-size: 22px;
+  padding-top: 50px;
+}
+.p4 {
+  text-align: center;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  padding-top: 20px;
+  font-size: 16px;
+  letter-spacing: 0.1rem;
+  padding-bottom: 30px;
+}
+
+.container8 {
+  width: 98vw;
+  height: 90vh;
+  background-image: url(./img/bg.jpg);
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  justify-content: center;
+  background-attachment: fixed;
+  color: white;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.title7 {
+  /* text-align: center; */
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  letter-spacing: 0.2rem;
+  border-top-left-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+  background-color: rgb(60, 56, 56);
+  outline: 0.3rem inset rgb(132, 4, 85);
+  outline-offset: 0.5rem;
+  color: white;
+  font-size: 50px;
+  /* padding: 50px; */
+  width: 50vw;
+  height: 10%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  /* margin: auto; */
+  transform: translate(-50%, -50%);
+}
